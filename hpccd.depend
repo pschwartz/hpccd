@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1312405579 source:/home/phschwartz/src/hpccd/daemon.cpp
+	"daemon.h"
+	<cerrno>
+	<csignal>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<string>
+	<fcntl.h>
+	<syslog.h>
+	<sys/resource.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+
+1312460985 /home/phschwartz/src/hpccd/daemon.h
+	<string>
+
+1312461002 source:/home/phschwartz/src/hpccd/main.cpp
+	<cstring>
+	<cstdlib>
+	<fcntl.h>
+	<iostream>
+	<string>
+	<syslog.h>
+	<unistd.h>
+	"daemon.h"
+
+1311962916 source:/home/phschwartz/src/hpccd/process.cpp
+
+1311962896 source:/home/phschwartz/src/hpccd/service.cpp
+
