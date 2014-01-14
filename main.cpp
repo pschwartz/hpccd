@@ -12,7 +12,7 @@ using namespace std;
 
 class proc_d : public iProc<proc_d>{
     public:
-        proc_d():iProc(){}
+        proc_d():iProc<proc_d>(){}
 
         void sigterm(int signo){
             syslog(LOG_INFO, "got SIGTERM; exiting");
